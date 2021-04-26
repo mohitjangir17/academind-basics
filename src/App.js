@@ -8,7 +8,7 @@ function App() {
   
   return (
     <div className="App">
-      <Mymovies name={'harry porter'} age={5}/>
+      <Mymovies name={'Harry Potter'} age={5}/>
     </div>
   );
 }

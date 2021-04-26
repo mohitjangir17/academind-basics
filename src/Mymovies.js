@@ -24,6 +24,7 @@ export class Movies extends React.Component {
       return (
         <div className="movies">
           <h1>Name:{this.props.name}</h1>
+          <hr />
           <h1>Age:{this.state.age}</h1>
           <hr />
           <button onClick={() => this.onMakeOlder()}>Make me old</button>
